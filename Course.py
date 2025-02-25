@@ -33,7 +33,7 @@ for doc in documents:
     texts.extend(text_splitter.split_text(doc['content']))  # Use combined content instead of just title
 
 # Step 4: Initialize OpenAI embeddings
-GPT_API_KEY = "sk-svcacct-31t_f_s4aTuT5DtT1CPgVp7BMrKHLvjcnG_7mm7c7OFF6OtutHynmJcJUQP_T3BlbkFJ68AnRS9U5awZptrYa0AX03bzDi0kZqSlR9mSx61nlgYYsjsnNrlNQwQSKXgA"  # Apna actual OpenAI API key yahan daalein
+GPT_API_KEY = "your api key"  # Apna actual OpenAI API key yahan daalein
 embeddings = OpenAIEmbeddings(openai_api_key=GPT_API_KEY)
 
 # Step 5: Create FAISS retriever
