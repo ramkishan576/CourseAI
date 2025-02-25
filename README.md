@@ -26,3 +26,20 @@ To get started, clone the repository and install the required dependencies. Run 
 git clone https://github.com/ramkishan222/CourseAi.git
 cd CourseAi
 pip install -r requirements.txt
+
+🚀 Installation
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/ramkishan576/your-repo-name.git
+cd your-repo-name
+2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+3️⃣ Run the Application
+
+python main.py
+
+
+
